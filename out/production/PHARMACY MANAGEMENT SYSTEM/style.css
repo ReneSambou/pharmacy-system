@@ -1,0 +1,103 @@
+.root {
+    -fx-background-color: #f0f0f0;
+    -fx-font-family: 'Arial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-text-fill: #2c3e50; /* Darker shade for text */
+}
+
+.header {
+    -fx-background-color: #3498db;
+    -fx-padding: 20px;
+}
+
+.header-title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #ecf0f1; /* Lighter shade for header title text */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Arial Black', Gadget, sans-serif; /* Changed font style */
+}
+
+.styled-text-field {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+    -fx-text-fill: #2c3e50; /* Darker text color for text field */
+    -fx-font-family: 'Arial', sans-serif; /* Changed font style */
+}
+
+.styled-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 3px;
+    -fx-font-family: 'Arial', sans-serif; /* Changed font style */
+}
+
+.styled-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3498db;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 35px;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #bdc3c7;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #ecf0f1; /* Lighter text color for table header */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Arial', sans-serif; /* Changed font style */
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #3498db;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #2980b9;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #f0f0f0;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #ecf0f1; /* Lighter text color for tabs */
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: #2c3e50; /* Darker text color for selected tabs */
+    -fx-font-family: 'Arial', sans-serif; /* Changed font style */
+}
+
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: white;
+    -fx-font-family: 'Arial', sans-serif; /* Changed font style */
+}
