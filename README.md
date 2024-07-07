@@ -1,6 +1,6 @@
 # Pharmacy Management System
 
-Welcome to the Pharmacy Management System! This system is designed to help manage the operations of a pharmacy, including inventory management, sales processing, and customer management. This README will guide you through the setup, installation, and usage of the system.
+Welcome to the Pharmacy Management System! This system is designed to help manage the operations of a pharmacy, including inventory management and sales processing. This README will guide you through the setup and installation of the system.
 
 ## Features
 
